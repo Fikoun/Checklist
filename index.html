@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffd83d" />
+  <title>Seznam na sbalení</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <span class="header-sticker" aria-hidden="true">★</span>
+    <div class="header-inner">
+      <h1 id="list-title">Seznam na sbalení</h1>
+      <p id="list-subtitle" class="subtitle"></p>
+      <div class="progress" role="group" aria-label="Postup balení">
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
+        <p id="progress-label" class="progress-label">0 z 0 sbaleno</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="checklist" aria-live="polite">
+    <p class="loading">Načítám seznam…</p>
+  </main>
+
+  <footer class="app-footer">
+    <button id="reset-btn" type="button" class="reset-btn">Vymazat seznam</button>
+    <p class="footer-note">Co zaškrtneš, se uloží jen v tomhle zařízení – 🍪 <br> (Nic se neposílá na server, všechno zůstává u tebe.)</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

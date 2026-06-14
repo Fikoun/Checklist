@@ -1,0 +1,76 @@
+{
+  "id": "letni-tabor-2026",
+  "title": "Batůžek výletníka",
+  "subtitle": "",
+  "sections": [
+    {
+      "name": "Oblečení",
+      "items": [
+        { "id": "tshirts", "label": "Trička (2–3)", "badge": "essential", "note": "Nejlepší je rychleschnoucí materiál" },
+        { "id": "shorts", "label": "Kraťasy / kalhoty (2–3)", "badge": "essential" },
+        { "id": "warm-layer", "label": "Teplá vrstva (mikina nebo fleece)", "badge": "essential", "note": "Večery můžou být chladné" },
+        { "id": "underwear", "label": "Spodní prádlo a ponožky (na každý den + náhradní)", "badge": "essential" },
+        { "id": "pyjamas", "label": "Pyžamo" },
+        { "id": "hat", "label": "Pokrývka hlavy (čepice)", "badge": "recommended" }
+      ]
+    },
+    {
+      "name": "Déšť a počasí",
+      "items": [
+        {
+          "id": "rain-protection",
+          "label": "Ochrana proti dešti",
+          "badge": "essential",
+          "note": "Vyber aspoň jedno — v pláštěnce máš volné ruce",
+          "options": [
+            { "id": "raincoat", "label": "Pláštěnka / nepromokavá bunda", "badge": "recommended" },
+            { "id": "umbrella", "label": "Deštník" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Obuv",
+      "items": [
+        {
+          "id": "shoes",
+          "label": "Boty",
+          "badge": "essential",
+          "note": "Na výlety se doporučují pevné uzavřené boty",
+          "options": [
+            { "id": "hiking-shoes", "label": "Pevné uzavřené boty / pohorky", "badge": "recommended" },
+            { "id": "trainers", "label": "Tenisky" }
+          ]
+        },
+        { "id": "sandals", "label": "Sandály nebo žabky", "note": "Na přezutí uvnitř, ne k bazénu" }
+      ]
+    },
+    {
+      "name": "Hygiena",
+      "items": [
+        { "id": "sunscreen", "label": "Opalovací krém (SPF 30+)", "badge": "recommended" },
+        { "id": "toothbrush", "label": "Kartáček a zubní pasta", "badge": "essential" },
+        { "id": "shower-gel", "label": "Sprchový gel / mýdlo a šampon", "badge": "essential" },
+        { "id": "towel", "label": "Ručník", "badge": "essential" },
+        { "id": "insect-repellent", "label": "Repelent na hmyz", "badge": "recommended" }
+      ]
+    },
+    {
+      "name": "Vybavení a nezbytnosti",
+      "items": [
+        { "id": "backpack", "label": "Batoh", "badge": "essential", "note": "Na výlety a túry" },
+        { "id": "water-bottle", "label": "Lahev na vodu", "badge": "essential" },
+        { "id": "flashlight", "label": "Baterka nebo čelovka", "badge": "essential" },
+        { "id": "sunglasses", "label": "Sluneční brýle" },
+        { "id": "first-aid", "label": "Malá osobní lékárnička (náplasti apod.)", "note": "Přibal i osobní léky" }
+      ]
+    },
+    {
+      "name": "Doklady a peníze",
+      "items": [
+        { "id": "id-card", "label": "Občanka / kartička pojišťovny", "badge": "essential" },
+        { "id": "pocket-money", "label": "Kapesné", "note": "Peníze na obědy a svačiny + nějaké atrakce navíc" }
+      ]
+    }
+  ]
+}
