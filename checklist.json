@@ -67,7 +67,7 @@
     {
       "name": "Doklady a peníze",
       "items": [
-        { "id": "id-card", "label": "Občanka / kartička pojišťovny", "badge": "essential" },
+        { "id": "id-card", "label": "Občanka / kartička pojišťovny", "badge": "essential", "note": "ISIC kartička pokud je vám 18 let!" },
         { "id": "pocket-money", "label": "Kapesné", "note": "Peníze na obědy a svačiny + nějaké atrakce navíc" }
       ]
     }
