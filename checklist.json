@@ -58,9 +58,8 @@
     {
       "name": "Vybavení a nezbytnosti",
       "items": [
-        { "id": "backpack", "label": "Batoh", "badge": "essential", "note": "Na výlety a túry" },
+        { "id": "backpack", "label": "Batoh", "badge": "essential", "note": "Vezmi jen jeden středně velký – sbalíš do něj všechno a zároveň ho použiješ na výlety" },
         { "id": "water-bottle", "label": "Lahev na vodu", "badge": "essential" },
-        { "id": "flashlight", "label": "Baterka nebo čelovka", "badge": "essential" },
         { "id": "sunglasses", "label": "Sluneční brýle" },
         { "id": "first-aid", "label": "Malá osobní lékárnička (náplasti apod.)", "note": "Přibal i osobní léky" }
       ]
